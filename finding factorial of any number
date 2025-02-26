@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+//finding factorial of any number
+	int fact=1;
+	int n;
+	cout<<"enter number:";
+	cin>>n;
+	for(int i=1;i<=n;i++){
+		fact*=i;
+	}
+	cout<<"the factorial of  number is:"<<fact;
+	return 0;
+}
